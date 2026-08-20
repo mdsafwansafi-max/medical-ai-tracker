@@ -28,7 +28,8 @@
             <p class="text-slate-600 text-sm mb-6">ڈاکٹر کا نسخہ، لیب ٹیسٹ، یا چیک اپ کی پرچی کی تصویر لیں۔ AI خود سب ریکارڈ بنا دے گا۔</p>
 
             <div class="border-2 border-dashed border-teal-300 rounded-xl p-6 text-center hover:bg-teal-50/50 transition">
-                <input type="file" id="imageInput" accept="image/*" capture="environment" class="hidden" onchange="handleFileSelected(event)">
+                <input type="file" id="imageInput" accept="image/*" class="hidden" onchange="handleFileSelected(event)">
+
                 
                 <div id="uploadPrompt" class="cursor-pointer" onclick="document.getElementById('imageInput').click()">
                     <div class="text-5xl mb-2">📸</div>
